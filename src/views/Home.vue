@@ -1,18 +1,28 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Eventlist v-bind:events="events" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Eventlist from "../components/Eventlist.vue";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-    HelloWorld
-  }
-}
+    Eventlist,
+  },
+  created() {
+    this.$store.dispatch("getData");
+    this.$store.state.joinBtn = true;
+    this.$store.state.linkActive = true;
+    this.$store.state.commentBtn = false;
+  },
+  computed: {
+    events() {
+      return this.$store.state.eventlist;
+    },
+  },
+};
 </script>
