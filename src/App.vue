@@ -81,7 +81,7 @@ button:hover {
     width: 30%;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 400px) {
   #nav {
     display: flex;
     flex-direction: column;
