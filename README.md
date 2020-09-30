@@ -40,7 +40,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 2. Go to terminal, type:
    docker build -t meet-up .
 3. type:
-   docker run -it -p 8020:8080 --rm --name dockerize-meetup meet-up-docker
+   docker run -it -p 8020:8080 --rm --name dockerize-meetup meet-up
 
 // How heroku works:
 

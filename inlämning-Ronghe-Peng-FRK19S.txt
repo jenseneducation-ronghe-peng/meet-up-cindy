@@ -1,0 +1,24 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Reflection of Meet up Project:\
+\
+Name: Ronghe (Cindy) Peng\
+Class: FRK19S, Stockholm\
+\
+GitHub link: \
+https://github.com/jenseneducation-ronghe-peng/meet-up-cindy\
+\
+Heroku link: \
+https://meet-up-cindy.herokuapp.com/\
+\
+Reflection:\
+\
+This is a really good course, I learned a lot from this course.\
+TDD is the most beneficial part for me and I really love two projects we\'92ve done during the course, they provide opportunities for us to polish our test skills, as well as letting us to think about how to design a good app from another aspect. I also get the way to publish my own app. \
+\
+Thank you so much for this course.}
